@@ -1,0 +1,49 @@
+.aboutsection{
+    
+    background-color:#f2f27f;
+
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  justify-content: center;
+
+
+ 
+  
+
+  
+}
+
+.slogan{
+    
+
+    font-size: 15vh;
+    color: rgb(171, 90, 144);
+    position: relative;
+    
+  
+
+    
+}
+
+.burgerimg{
+   
+    
+    height: 300px;
+   position: absolute;
+   animation-name: shiftImg;
+   animation-duration: 2s;
+    
+    
+}
+@keyframes shiftImg{
+  0% {
+    top: 0px; left:37vw;
+  }
+  100%{
+     top: 34vh; left:37vw;
+  }
+}
+
+
