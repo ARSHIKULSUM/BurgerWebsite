@@ -1,0 +1,32 @@
+.outer{
+    position: sticky;
+    top: 0;
+    
+    
+    
+    z-index: 2;
+    height: 80vh;
+    margin: auto;
+    border-radius: 15%;
+    width: 50vw;
+    background-color: rgb(88, 53, 53);
+    opacity: 85%;
+    border: 1px solid black;
+  
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    color: rgb(255, 187, 198);
+    
+}
+.input{
+    margin: 50px;
+}
+.heading{
+    color: rgb(154, 86, 97);
+    font-size: 3vw;
+}

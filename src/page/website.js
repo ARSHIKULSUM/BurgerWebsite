@@ -1,8 +1,9 @@
 import Navbar from "../component/navbar";
 import About from "../section/aboutUs";
 import Home from "../section/home";
-import Products from "../section/product";
-import Reciepe from "../section/recipe";
+import Features from "../section/features";
+import Contact from "../section/contact";
+import Intri from "../section/intri";
 
 export default function Website(){
 
@@ -12,8 +13,9 @@ export default function Website(){
         < Navbar />
         < About />
         <Home />
-        <Products />
-        <Reciepe />
+        <Features />
+        <Intri />
+        <Contact />
         
         
 

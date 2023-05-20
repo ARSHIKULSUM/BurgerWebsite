@@ -1,0 +1,18 @@
+.outer{
+    height: 85vh;
+    position: sticky;
+    top: 0px;
+    
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 14vh;
+   width: 100vw;
+}
